@@ -1,3 +1,5 @@
+# cars.reverse()
+
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 
