@@ -1,3 +1,5 @@
+# added to the end of the list append()
+
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 

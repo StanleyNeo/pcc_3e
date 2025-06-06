@@ -1,3 +1,5 @@
+# del variable[1]
+
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 

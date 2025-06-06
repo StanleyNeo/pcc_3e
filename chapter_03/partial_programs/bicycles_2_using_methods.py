@@ -1,3 +1,5 @@
+# usinf f-strings and values from List
+
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 print(bicycles[0].title())
 

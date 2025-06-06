@@ -1,5 +1,5 @@
 my_foods = ['pizza', 'falafel', 'carrot cake']
-friend_foods = my_foods[:]
+friend_foods = my_foods[:] # full range
 
 print("My favorite foods are:")
 print(my_foods)

@@ -1,3 +1,5 @@
+# using sorted() sorted(cars) car remain original List
+
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 
 print("Here is the original list:")
