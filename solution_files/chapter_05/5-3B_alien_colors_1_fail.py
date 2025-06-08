@@ -1,3 +1,5 @@
+# 5-3B 20250608 SKNEO 外星人颜色
+
 alien_color = 'red'
 
 if alien_color == 'green':
