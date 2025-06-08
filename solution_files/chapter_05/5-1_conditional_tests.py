@@ -1,4 +1,4 @@
-# 20250606 5-5 conditional test
+# 20250606 5-5 conditional test SKNEO
 #
 car = 'subaru'
 print("Is car == 'subaru'? I predict True.")
