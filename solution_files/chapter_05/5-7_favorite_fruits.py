@@ -1,3 +1,5 @@
+# 5-7 20250608 NEOSK 最喜欢的水果
+
 favorite_fruits = ['blueberries', 'salmonberries', 'peaches']
 
 if 'bananas' in favorite_fruits:
@@ -11,15 +13,15 @@ if 'kiwis' in favorite_fruits:
 if 'peaches' in favorite_fruits:
     print("You really like peaches!")
 
-    最喜欢的_水果 = ['蓝莓', '三文鱼莓', '桃子']
+    最喜欢的水果 = ['蓝莓', '三文鱼莓', '桃子']
 
-    if '香蕉' in 最喜欢的_水果:
+    if '香蕉' in 最喜欢的水果:
         print("你真的很喜欢香蕉！")
-    if '苹果' in  最喜欢的_水果:
+    if '苹果' in  最喜欢的水果:
         print("你真的很喜欢苹果！")
-    if '蓝莓' in 最喜欢的_水果:
+    if '蓝莓' in 最喜欢的水果:
         print("你真的很喜欢蓝莓！")
-    if '猕猴桃' in 最喜欢的_水果:
+    if '猕猴桃' in 最喜欢的水果:
         print("你真的很喜欢猕猴桃！")
-    if '桃子' in 最喜欢的_水果:
+    if '桃子' in 最喜欢的水果:
         print("你真的很喜欢桃子！")
