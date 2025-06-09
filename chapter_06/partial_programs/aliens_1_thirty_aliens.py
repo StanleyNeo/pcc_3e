@@ -1,4 +1,4 @@
-# 创建一个空列表来存储外星人 20250609 SKNEO
+# 外星人_1三十个外星人 20250609 SKNEO
 # Make an empty list for storing aliens.
 aliens = []
 
