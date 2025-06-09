@@ -1,3 +1,4 @@
+# 创建一个空列表来存储外星人 20250609 SKNEO
 # Make an empty list for storing aliens.
 aliens = []
 
@@ -5,7 +6,7 @@ aliens = []
 for alien_number in range(30):
     new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
     aliens.append(new_alien)
-
+print(aliens)
 # Show the first 5 aliens.
 for alien in aliens[:5]:
     print(alien)
