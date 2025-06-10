@@ -14,3 +14,15 @@ print("...")
 
 # Show how many aliens have been created.
 print(f"Total number of aliens: {len(aliens)}")
+
+外星人列表 = []
+# 创建30个绿色外星人
+for 外星人编号 in range(30):
+    新外星人 = {'颜色': '绿色', '分数': 5, '速度': '慢'}
+    外星人列表.append(新外星人)
+print(外星人列表)
+
+# 显示前5个外星人
+for 外星人 in 外星人列表[:5]:
+    print(外星人)
+print("...")
