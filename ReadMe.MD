@@ -1,4 +1,13 @@
-# My Python Crash Course Learning Journal
-This is my personal practice repo while working through [Python Crash Course, 3rd Ed.](https://github.com/ehmatthes/pcc_3e) by Eric Matthes.  
-- **Notes**: [Link to your notes]  
-- **Progress**: Chapter 3 (Lists), Chapter 4 (Dictionaries), etc.
+Python Crash Course - Third Edition
+===
+
+A Hands-On, Project-Based Introduction to Programming
+---
+
+This is a collection of resources for [Python Crash Course, Third Edition](https://nostarch.com/python-crash-course-3rd-edition), an introductory programming book from [No Starch Press](https://nostarch.com) by Eric Matthes. Click here for a [much cleaner version](https://ehmatthes.github.io/pcc_3e/) of these online resources.
+
+If you have any questions about Python Crash Course, feel free to get in touch:
+
+Email: ehmatthes@gmail.com
+
+Twitter: [@ehmatthes](http://twitter.com/ehmatthes/)
