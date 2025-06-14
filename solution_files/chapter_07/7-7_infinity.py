@@ -1,5 +1,5 @@
 # 7-7_infinity 20250613 SKNEO
-
+# 无限计数 输入
 # 英文版
 print("\n=== Infinite Counter ===")
 count = 0
