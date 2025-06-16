@@ -1,4 +1,4 @@
-# 8-3_large_shirts 函数 制作T恤 20250616 SKNEO
+# 8-4_large_shirts 函数 大号衬衫 20250616 SKNEO
 
 def 制作T恤(尺码='大号', 文字内容='我爱Python!'):
     """显示将要制作的T恤信息"""
