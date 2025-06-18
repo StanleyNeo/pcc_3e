@@ -1,4 +1,4 @@
-# 9-8_privileges 类和对象 管理员 20250618 Stanley Neo
+# 9-8_privileges 类和对象 添加权限 20250618 Stanley Neo
 
 class 用户:
     """表示一个简单的用户资料"""
