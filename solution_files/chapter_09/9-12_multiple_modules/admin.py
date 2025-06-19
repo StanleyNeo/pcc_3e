@@ -1,3 +1,4 @@
+# 9-12_my_admin 类和对象 我的管理员 20250619 Stanley Neo
 """A collection of classes for modeling an admin user account."""
 
 from user import User

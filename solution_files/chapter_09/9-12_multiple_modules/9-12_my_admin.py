@@ -1,3 +1,5 @@
+# 9-12_my_admin 类和对象 我的管理员 20250619 Stanley Neo
+
 from admin import Admin
 
 eric = Admin('eric', 'matthes', 'e_matthes', 'e_matthes@example.com', 'alaska')
