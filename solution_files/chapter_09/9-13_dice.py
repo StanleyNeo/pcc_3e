@@ -1,7 +1,5 @@
 # 9-13_dice 类和对象 骰子 20250619 Stanley Neo
 
-# 9-13_dice 类和对象 骰子 20250619 Stanley Neo
-
 from random import randint
 
 class 骰子:
