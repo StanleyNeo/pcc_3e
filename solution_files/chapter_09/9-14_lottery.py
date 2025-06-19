@@ -1,3 +1,5 @@
+# 9-14_lottery 类和对象 彩票 20250619 Stanley Neo
+
 from random import choice
 
 possibilities = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'a', 'b', 'c', 'd', 'e']
