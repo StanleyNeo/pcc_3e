@@ -1,3 +1,5 @@
+# 9-11_my_restaurant 类和对象 我的用户 20250619 Stanley Neo
+
 from user import Admin
 
 eric = Admin('eric', 'matthes', 'e_matthes', 'e_matthes@example.com', 'alaska')
