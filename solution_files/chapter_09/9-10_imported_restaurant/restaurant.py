@@ -1,3 +1,4 @@
+# 9-10_my_restaurant 类和对象 我的餐厅 20250619 Stanley Neo
 """A class representing a restaurant."""
 
 class Restaurant:
