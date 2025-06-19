@@ -1,3 +1,5 @@
+# 9-15_lottery_analysis 类和对象 彩票分析 20250619 Stanley Neo
+
 from random import choice
 
 def get_winning_ticket(possibilities):
