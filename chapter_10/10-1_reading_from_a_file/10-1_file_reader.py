@@ -1,4 +1,4 @@
-# 10-1_reading_from_a_file 文件和异常 读取文件内容 20250620 Stanley Neo
+# 10-1_file_reader 文件和异常 读取文件内容 20250620 Stanley Neo
 
 from pathlib import Path
 
