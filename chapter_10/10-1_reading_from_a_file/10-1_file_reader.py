@@ -15,7 +15,7 @@ print(文件内容)
 for 行 in 行列表:
     print(行)
 
-from pathlib import Path
+# from pathlib import Path
 
 path = Path('pi_digits.txt')
 contents = path.read_text()
