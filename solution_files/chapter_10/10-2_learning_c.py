@@ -1,7 +1,5 @@
 # 10-1_learning_c 文件和异常 学习C 20250621 Stanley Neo
 
-# 10-1_learning_c 文件和异常 学习C 20250621 Stanley Neo
-
 from pathlib import Path
 
 # 读取文件内容
