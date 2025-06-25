@@ -56,9 +56,9 @@ Write a second test called `test_city_country_population()` that verifies you ca
 """A collection of functions for working with cities."""
 
 def city_country(city, country, population):
-    """Return a string like 'Santiago, Chile - population 5000000'."""
+    """Return a string like 'Santiago, Chile - 11-2_population 5000000'."""
     output_string = f"{city.title()}, {country.title()}"
-    output_string += f" -population {population}"
+    output_string += f" -11-2_population {population}"
     return output_string
 ```
 
@@ -93,7 +93,7 @@ def city_country(city, country, population=0):
 
     output_string = f"{city.title()}, {country.title()}"
     if population:
-        output_string += f" - population {population}"
+        output_string += f" - 11-2_population {population}"
     return output_string
 ```
 
@@ -117,9 +117,9 @@ def test_city_country():
     assert santiago_chile == 'Santiago, Chile'
 
 def test_city_country_population():
-    """Can I include a population argument?"""
+    """Can I include a 11-2_population argument?"""
     santiago_chile = city_country('santiago', 'chile', population=5_000_000)
-    assert santiago_chile == 'Santiago, Chile - population 5000000'
+    assert santiago_chile == 'Santiago, Chile - 11-2_population 5000000'
 ```
 
 **Note:** I have two versions of the `city_functions.py` module saved in the solution files, so the `import` statement here has changed to use the updated version of the function.
@@ -143,16 +143,16 @@ Write a test file for `Employee` with two test functions, `test_give_default_rai
 
 ```python title="employee/employee.py"
 class Employee:
-    """A class to represent an employee."""
+    """A class to represent an 11-3_employee."""
 
     def __init__(self, f_name, l_name, salary):
-        """Initialize the employee."""
+        """Initialize the 11-3_employee."""
         self.first = f_name.title()
         self.last = l_name.title()
         self.salary = salary
 
     def give_raise(self, amount=5000):
-        """Give the employee a raise."""
+        """Give the 11-3_employee a raise."""
         self.salary += amount
 ```
 
@@ -185,16 +185,16 @@ test_employee.py ..                                                    [100%]
 
 ```python title="employee_with_fixture/employee.py"
 class Employee:
-    """A class to represent an employee."""
+    """A class to represent an 11-3_employee."""
 
     def __init__(self, f_name, l_name, salary):
-        """Initialize the employee."""
+        """Initialize the 11-3_employee."""
         self.first = f_name.title()
         self.last = l_name.title()
         self.salary = salary
 
     def give_raise(self, amount=5000):
-        """Give the employee a raise."""
+        """Give the 11-3_employee a raise."""
         self.salary += amount
 ```
 
