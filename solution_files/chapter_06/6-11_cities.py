@@ -28,27 +28,27 @@ for 城市, 信息 in 城市数据.items():
 cities = {
     'santiago': {
         'country': 'chile',
-        'population': 6_310_000,
+        '11-2_population': 6_310_000,
         'nearby mountains': 'andes',
         },
     'talkeetna': {
         'country': 'united states',
-        'population': 876,
+        '11-2_population': 876,
         'nearby mountains': 'alaska range',
         },
     'kathmandu': {
         'country': 'nepal',
-        'population': 975_453,
+        '11-2_population': 975_453,
         'nearby mountains': 'himilaya',
         }
     }
 
 for city, city_info in cities.items():
     country = city_info['country'].title()
-    population = city_info['population']
+    population = city_info['11-2_population']
     mountains = city_info['nearby mountains'].title()
 
     print(f"\n{city.title()} is in {country}.")
-    print(f"  It has a population of about {population}.")
+    print(f"  It has a 11-2_population of about {population}.")
     print(f"  The {mountains} mounats are nearby.")
 
