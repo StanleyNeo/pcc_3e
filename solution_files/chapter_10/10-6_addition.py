@@ -1,4 +1,4 @@
-# 10-6_guest 文件和异常 加法 20250625 Stanley Neo
+# 10-6_addition 文件和异常 加法 20250625 Stanley Neo
 
 try:
     # 尝试获取并转换第一个数字
