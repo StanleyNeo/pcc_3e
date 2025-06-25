@@ -1,4 +1,4 @@
-# 10-6_addition 文件和异常 加法 20250625 Stanley Neo
+# 10-7_addition_calculator 文件和异常 加法计算器 20250625 Stanley Neo
 
 print("输入'q'可随时退出程序。\n")
 
