@@ -1,5 +1,4 @@
 # 10-3_pi_birthday 文件和异常 生日出现在π 20250625 Stanley Neo
-
 from pathlib import Path
 
 # 读取包含π百万位数的文件
