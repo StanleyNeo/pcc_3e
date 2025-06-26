@@ -1,4 +1,4 @@
-# 11-2_city_functions_population 测试代码 城市和国家加人口 20250626 Stanley Neo
+# 11-2_city_functions_population 测试代码 城市和国家加人口函数 20250626 Stanley Neo
 # add population
 
 """A collection of functions for working with cities."""
