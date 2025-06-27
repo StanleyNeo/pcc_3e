@@ -164,3 +164,57 @@ Django 的强大之处在于它的"电池全包"哲学
 开发者可以专注于业务逻辑而非基础设施。
 
 '''
+
+'''
+cd.. # to switch back one folder back
+python # run python will see python version and >>>
+
+>>> exit # back to terminal prompt like CMD
+md learning_log # make directory
+
+cd learning_log # change directory
+
+PS F:\!!__PythonCC3_2025\learning_log> source ll_env/bin/activate
+
+PS F:\!!__PythonCC3_2025\learning_log>  ll_env\Scripts\activate
+
+PS F:\!!__PythonCC3_2025\learning_log> python -m venv ll_env
+
+PS F:\!!__PythonCC3_2025\learning_log> ll_env\Scripts\activate
+
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> pip install Django
+
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> deactivate
+
+PS F:\!!__PythonCC3_2025\learning_log> ll_env\Scripts\activate
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> django-admin startproject ll_project .
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> ls
+
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> ls ll_project
+
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> python manage.py migrate
+
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> ls
+
+(ll_env) PS F:\!!__PythonCC3_2025\learning_log> python manage.py runserver
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 27, 2025 - 11:22:21
+Django version 5.2.3, using settings 'll_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[27/Jun/2025 11:23:07] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[27/Jun/2025 11:23:08] "GET /favicon.ico HTTP/1.1" 404 2212
+[27/Jun/2025 11:24:55] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[27/Jun/2025 11:24:55] "GET /favicon.ico HTTP/1.1" 404 2212
+
+
+'''
