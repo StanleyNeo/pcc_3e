@@ -1,0 +1,166 @@
+'''
+< 如何安装 Django >
+前提条件
+已安装 Python (推荐 3.8 或更高版本)
+建议使用虚拟环境
+
+1. 创建并激活虚拟环境：
+bash
+python -m venv myenv      # 创建虚拟环境
+myenv\Scripts\activate   # Windows 激活
+source myenv/bin/activate # macOS/Linux 激活
+
+2. 安装 Django：
+bash
+pip install django
+
+3. 验证安装：
+bash
+python -m django --version
+
+< 创建 Django 项目 >
+1. 创建项目：
+
+bash
+django-admin startproject mysite
+这会生成如下目录结构：
+
+text
+mysite/
+    manage.py
+    mysite/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
+2. 运行开发服务器：
+
+bash
+cd mysite
+python manage.py runserver
+访问 http://127.0.0.1:8000 应该能看到欢迎页面
+
+< 创建 Django 应用 >
+Django 项目由多个应用(app)组成：
+
+1. 创建应用：
+
+bash
+python manage.py startapp myapp
+2. 注册应用：
+在 mysite/settings.py 的 INSTALLED_APPS 中添加：
+
+python
+'myapp.apps.MyappConfig',
+
+< 基本开发流程 >
+1. 定义模型(Model)：
+在 myapp/models.py 中：
+
+python
+from django.db import models
+
+class Book(models.Model):
+    title = models.CharField(max_length=100)
+    author = models.CharField(max_length=50)
+    published_date = models.DateField()
+
+2. 生成并应用迁移：
+
+bash
+python manage.py makemigrations
+python manage.py migrate
+
+3. 创建视图(View)：
+在 myapp/views.py 中：
+
+python
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("欢迎来到我的网站!")
+
+4. 配置URL：
+在 myapp/urls.py (需新建)：
+
+python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+]
+
+然后在项目 mysite/urls.py 中包含它：
+
+python
+from django.contrib import admin
+from django.urls import include, path
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('myapp.urls')),
+]
+
+5. 使用模板(Template)：
+创建 myapp/templates/myapp/home.html：
+
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的网站</title>
+</head>
+<body>
+    <h1>{{ welcome_message }}</h1>
+</body>
+</html>
+
+更新视图：
+
+python
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'myapp/home.html',
+                 {'welcome_message': '欢迎来到我的网站!'})
+
+< Django 管理后台 >
+1. 创建超级用户：
+
+bash
+python manage.py createsuperuser
+
+2. 注册模型到后台：
+在 myapp/admin.py 中：
+
+python
+from django.contrib import admin
+from .models import Book
+
+admin.site.register(Book)
+
+3. 访问后台：
+运行服务器后访问 http://127.0.0.1:8000/admin
+
+< 生产环境部署 >
+1. 设置 DEBUG = False 在 settings.py
+
+2. 配置 ALLOWED_HOSTS
+
+3. 收集静态文件：
+
+bash
+python manage.py collectstatic
+
+4. 使用 WSGI 服务器如 Gunicorn 或 uWSGI
+
+5. 配合 Nginx/Apache 作为反向代理
+
+Django 的强大之处在于它的"电池全包"哲学
+- 它包含了Web开发中常用的功能，
+同时保持高度可定制性。通过遵循Django的约定，
+开发者可以专注于业务逻辑而非基础设施。
+
+'''
